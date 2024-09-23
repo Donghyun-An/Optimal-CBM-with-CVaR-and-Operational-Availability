@@ -398,7 +398,7 @@ epsilon_lag = 2.5
 epsilon_lambda = 0.1
 sen_1, sen_2, sen_3 = 1, 1, 1
 
-for set_CVaR_rho in [0, 0.25, 0.75, 0.99]:
+for set_CVaR_rho in [0, 0.25, 0.75, 0.99]: # OR use parallel run to speed up processing of list
 
     set_ci = 1
     set_cp, set_cc, set_cd = 5 * sen_1, 12 * sen_2, 10 * sen_3
